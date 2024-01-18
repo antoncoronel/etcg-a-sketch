@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+}
+
+#box{
+    display: flex;
+    color: blue;
+    height: 1rem;
+    width: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 36rem;
+    width: 36rem;
+}
