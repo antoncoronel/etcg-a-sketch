@@ -1,6 +1,10 @@
+const title = document.createElement("h1");
+document.body.appendChild(title);
+title.textContent = "Etch-a-Sketch";  
+
 const wrapper = document.createElement("div"); // wrapper container
 wrapper.id = "wrapper";
-document.body.appendChild(wrapper);
+document.body.appendChild(wrapper);  
 
 let numBoxes = 0;
 
